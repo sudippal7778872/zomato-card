@@ -1,10 +1,13 @@
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Routes, Route } from "react-router-dom"
+import Search from './components/Search';
 
 const App = () => {
   return (
-    <div>
-      Hi everyone this is me.
-    </div>
+    <>
+      <Search/>
+    </>
   )
 }
 
